@@ -1,0 +1,2096 @@
+{
+ "kind": "youtube#playlistItemListResponse",
+ "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/DKJAfNGFH3TyRayT2Y7lEBgjj58\"",
+ "nextPageToken": "CDIQAA",
+ "pageInfo": {
+  "totalResults": 99,
+  "resultsPerPage": 50
+ },
+ "items": [
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/cmn7KJECuUa2L_rIgS9DxzNojpY\"",
+   "id": "UUw_N9xLx0-4KKDws6RpCUaTFjyI3ITiZA",
+   "snippet": {
+    "publishedAt": "2015-11-26T14:28:55.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "XebiConFr 15 - Cellenza - Développez et déployez vos applications multiplateformes dans le Cloud",
+    "description": "Nous développons et livrons du logiciel plus vite que jamais, ou du moins nous le souhaitons. De nombreux obstacles empêchent généralement cet objectif : ségrégations technologiques, méthodes de travail, dispersion des équipes, manque de traçabilité, etc. Cette présentation est 100% « No Silver Bullet », toutefois vous y trouverez des réponses concrètes à vos problèmes.\n\nLes slides sont à retrouver ici : http://fr.slideshare.net/XebiaFrance/xebiconfr-15-dvelopper-dans-le-cloud\n\nSite internet : http://xebicon.fr",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/3Ih2VkzaL8M/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/3Ih2VkzaL8M/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/3Ih2VkzaL8M/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/3Ih2VkzaL8M/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/3Ih2VkzaL8M/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 0,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "3Ih2VkzaL8M"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/hi443I4_YRjHbNOx2sC1cT-RMjU\"",
+   "id": "UUw_N9xLx0-4K4UFw-JTD--Y8HpDlFSR65",
+   "snippet": {
+    "publishedAt": "2015-11-26T09:38:53.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "XebiConFr 15 - Orange Technocentre - Comment intégrer le marketing dans l’agilité",
+    "description": "FRANCK DERVILLE :\nFrank Derville évolue depuis plus de 7 ans chez Orange. Il est aujourd'hui Directeur de la performance et de la transformation au TechnoCentre de Orange.\n\nLes slides sont à retrouver ici : https://fr.slideshare.net/XebiaFrance/xebiconfr-15-tmoignage-orange-technocentre-comment-intgrer-le-marketing-dans-lagilit-grer-des-quipes-agiles-multisites/\n\nSite internet : http://xebicon.fr",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/RFIsZsPaDlk/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/RFIsZsPaDlk/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/RFIsZsPaDlk/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/RFIsZsPaDlk/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/RFIsZsPaDlk/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 1,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "RFIsZsPaDlk"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/ajyhUltvFBcDo7zLSmQfwf9P1uw\"",
+   "id": "UUw_N9xLx0-4J-8diIwyu5tA7uDaA_Xh3r",
+   "snippet": {
+    "publishedAt": "2015-11-26T09:40:34.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "XebiConFr 15 - Be Data Driven : Monter son Data Lab",
+    "description": "Big Data, Data Science, cluster Hadoop, Machine Learning, etc. Aujourd'hui, impossible de passer à côté de ce phénomène vers lequel de plus en plus d'entreprises se tournent.\n\nAu-delà des mots et de la tendance, comment réellement tirer parti de toutes vos données et en tirer un véritable avantage concurrentiel? La réponse se résume en quelques mots: Monter un Data Lab. Au cours de cette présentation, nous vous proposons de définir ce qu'est réellement un Data Lab, de comprendre les grandes étapes essentielles pour le monter de manière intelligence, d'identifier les profils nécessaires à son bon fonctionnement et de savoir comment optimiser son utilisation pour en tirer une vraie valeur ajoutée pour votre entreprise.\n\nLes slides sont à retrouver ici : http://fr.slideshare.net/XebiaFrance/xebiconfr-15-be-data-driven-monter-son-data-lab\n\nSite internet : http://xebicon.fr",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/cOyflozZkQs/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/cOyflozZkQs/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/cOyflozZkQs/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/cOyflozZkQs/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/cOyflozZkQs/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 2,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "cOyflozZkQs"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/8_7HeaJ4QFAmg_6-9MHpfQtVMA8\"",
+   "id": "UUw_N9xLx0-4Kzvzfon2i1qqA6UARcjtI6",
+   "snippet": {
+    "publishedAt": "2015-11-25T11:26:10.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "XebiConFr 15 - Docapost - IoT, faciliter la vie connectée grâce à un Hub numérique",
+    "description": "Venez découvrir avec nous le marché de l’IOT, ses usages, sa situation actuelle et son développement futur au travers d’un retour d’expérience du projet Hub Numérique de Docapost.\n\nCes dernières années ont vu une explosion du nombre d’objets connectés à Internet. La gestion et l’utilisation de ces objets sont devenues un vrai casse-tête pour l’utilisateur au quotidien. La sécurité, la vie privée, les multiples applications que l’on finit par oublier, et aussi le fait que chaque objet n’existe que pour une seule logique de service sont autant de facteurs rebutant les utilisateurs. Les opportunités que ces objets représentent pour les entreprises sont indéniables, mais se heurtent elles aussi à ces complexités et à un foisonnement difficile à maîtriser.\n\nLe Hub Numérique développé par Docapost a pour ambition d’offrir une solution simple, sécurisée, multi-fabricant et multi-support : chacun pourra désormais maîtriser ses objets de façon simple, les faire interagir, en partager les données d’un simple clic et bénéficier de nouveaux services connectés. Centré sur l'usage et la confiance pour chacun, le Hub Numérique est ainsi la porte d'accès pour les entreprises et aux nouveaux services qu'elles peuvent proposer à leurs clients. Venez découvrir avec nous le marché de l’IOT, ses usages, sa situation actuelle et son développement futur au travers d’un retour d’expérience du projet Hub Numérique de Docapost.\n\nDenis Weiss :\nAprès 10 ans d’organisation et de gestion du changement dans le monde industriel, Denis Weiss a dirigé différentes DSI, avant de rejoindre La Poste pour développer et déployer un nouveau système de tri automatisé. Connecté à plus de 300 machines industrielles, à plusieurs milliers de flasheurs manuels et au smartphone du facteur, ce système trie l’ensemble du courrier de La Poste, et permet de centraliser et d’analyser les informations associées à l’aide de plusieurs outils big-data. Denis pilote aujourd’hui la réalisation du Hub Numérique chez Docapost, une des activités clefs de la Branche Numérique de La Poste.\n\nLes slides sont à retrouver ici : http://fr.slideshare.net/XebiaFrance/xebiconfr-15-docapost-iot-faciliter-la-vie-connecte-grce-un-hub-numrique\n\nSite internet : http://xebicon.fr",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/5VHe2lrBskA/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/5VHe2lrBskA/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/5VHe2lrBskA/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/5VHe2lrBskA/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/5VHe2lrBskA/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 3,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "5VHe2lrBskA"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/jEZNJ5IA-FneWCnPxQ853U8bQsI\"",
+   "id": "UUw_N9xLx0-4IZ9yJP5SLHVKIut--Va2Xf",
+   "snippet": {
+    "publishedAt": "2015-11-25T11:25:24.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "XebiConFr 15 - Xebia Labs - À la recherche du temps (perdu) entre l'idée et sa mise en service",
+    "description": "Les méthodes agile (Scrum / Kanban) permettent un meilleur recueil des besoins et les transforment rapidement en une implementation. Cependant, la route est longue pour arriver jusqu’à l’utilisateur final : déploiement, configuration, tests (unitaire, fonctionnels, non reg), validation, etc. sont différentes tâches à effectuer et à coordonner. Et finalement combien de temps entre la demande d'une nouvelle fonctionnalité métier et sa mise en service ? \nCette session présente la solution XL Release de la Société XebiaLabs et montre à travers une intégration simple (JIRA, Jenkins, XL Deploy) qu'il est maintenant possible d'obtenir cette information afin de détecter les éventuels goulets d'étranglement.\n\nLes slides sont à retrouver ici : https://fr.slideshare.net/XebiaFrance/xebiconfr-15-a-la-recherche-du-temps-perdu-entre-le-use-case-metier-et-sa-mise-en-service-1\n\nSite internet : http://xebicon.fr",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/hX_U6BkuQcQ/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/hX_U6BkuQcQ/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/hX_U6BkuQcQ/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/hX_U6BkuQcQ/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/hX_U6BkuQcQ/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 4,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "hX_U6BkuQcQ"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/GIumOzl8NBA6BDXNJIKsorM7X5k\"",
+   "id": "UUw_N9xLx0-4JtKef8OBX5U-vI0M5WKUeS",
+   "snippet": {
+    "publishedAt": "2015-11-24T10:06:24.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "XebiConFr 15 - WeScale - Dessine moi un nuage",
+    "description": "Le Cloud, tout le monde en a un bout dans la poche, beaucoup d'entreprises vivent dedans, et bien plus encore souhaitent s'y établir.\n\nMais qu'est-ce que \"Le Cloud\" exactement ? La définition du Cloud se perd dans les campagnes marketing des marchands de rêves. Les potentialités ouvertes par le Cloud en ce début de l'ère Internet sont énormes. Venez écoutez l'histoire du Cloud dans son entièreté. Nous vous raconterons sa naissance, sa croissance et ses futurs potentiels. Nous verrons ensemble quels avantages tirer du Cloud en étudiant différents cas d'entreprises : éditeurs de logiciels, startups, acteur du premier âge du web et autres. Le Cloud, que vous en soyez un client, un bâtisseur ou un aspirant, vous êtes les bienvenus pour partager notre vision de ce mouvement qui débute.\n\nToutes les informations de l'événement sont à retrouver sur xebicon.fr\n\nLes slides sont ici : http://fr.slideshare.net/XebiaFrance/xebiconfr-15-dessinemoi-un-nuage",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/sDXXSbK6eOk/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/sDXXSbK6eOk/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/sDXXSbK6eOk/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/sDXXSbK6eOk/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/sDXXSbK6eOk/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 5,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "sDXXSbK6eOk"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/HsYx0Mf4qOslujKgPZxjA_NWrGQ\"",
+   "id": "UUw_N9xLx0-4K7uIVYF-PENPL3fM-swAvx",
+   "snippet": {
+    "publishedAt": "2015-11-24T10:03:26.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "XebiConFr 15 - Comment manager des geeks ?",
+    "description": "Manager une boite de Geeks est très particulier.\n\nCes salariés d'un genre à part veulent des nouvelles technos, du temps pour expérimenter, partager la connaissance, faire du Pair Programming, participer à la stratégie d'entreprise et une vraie liberté de parole.\n\nPar Luc Legardeur, Président fondateur de Xebia et sponsor de la première heure de Devoxx. il est également auteur du contrat agile, fondateur du French SUG et Investisseur dans l'IT et a le plaisir de participer aux aventures suivantes : XebiaLabs, Cellenza, Thiga, UX REPUBLIC, WeScale et Akamis.\n\nRetrouvez toutes les informations de l'événement sur xebicon.fr. \n\nLes slides de la présentation sont ici : http://fr.slideshare.net/XebiaFrance/xebiconfr-15-comment-manager-des-geeks",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/0ZKKpuoROjg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/0ZKKpuoROjg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/0ZKKpuoROjg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/0ZKKpuoROjg/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/0ZKKpuoROjg/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 6,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "0ZKKpuoROjg"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/f29k51Ap_MoYFCF4tKythAcv8x4\"",
+   "id": "UUw_N9xLx0-4IbM80szuZ66X5i7QrevqHf",
+   "snippet": {
+    "publishedAt": "2015-11-23T10:09:36.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "XebiConFr 15 - À la découverte des mécanismes internes de Cassandra",
+    "description": "Construire une base de données distribuée, scalable et hautement disponible est une opération extrêmement complexe.\n\nDans cette présentation, nous allons voir en détail certains des mécanismes utilisés pour le fonctionnement interne de Cassandra, l'une des bases NoSQL les plus populaires actuellement. Au programme de cette session : Comment les informations sont répliquées dans un cluster, comment sont réalisées les écritures et les lectures et comment Cassandra arrive à les garder (relativement) rapides. Enfin nous verrons comment les machines d'un cluster parviennent à se mettre d'accord à l'aide d'un algorithme distribué nommé Paxos.\n\nLes slides sont à retrouver ici : http://fr.slideshare.net/XebiaFrance/xebiconfr-15-la-dcouverte-des-mcanismes-internes-de-cassandra\n\nSite internet : http://xebicon.fr",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/4E4Jj9wtoNU/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/4E4Jj9wtoNU/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/4E4Jj9wtoNU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/4E4Jj9wtoNU/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/4E4Jj9wtoNU/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 7,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "4E4Jj9wtoNU"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/4ZxvoMYqwJrP79ga4q-md-YHYso\"",
+   "id": "UUw_N9xLx0-4KPBqryAi10Evr2Vw73bG3y",
+   "snippet": {
+    "publishedAt": "2015-11-23T10:13:12.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "XebiConFr 15 - Les challenges des microservices",
+    "description": "L’approche microservices devient de plus en plus présente dans nos conceptions d’architectures.\n\nSouvent critiqué pour sa ressemblance avec l’approche Service Oriented Architecture (SOA), les microservices rencontrent les mêmes problématiques que son ainé (catalogue de services, communication, versionning, etc).\n\nBasé sur un retour d’expérience, je vous propose de parcourir ensemble les challenges à remplir pour mettre en place avec succès des architectures microservices. Nous nous interrogerons également pourquoi et comment les microservices ont une chance de fonctionner là où la SOA a échoué.\n\nLes slides sont à retrouver ici : http://fr.slideshare.net/XebiaFrance/xebiconfr-15-le-challenge-des-microservices\n\nToutes les autres vidéos de la XebiCon'15 sur : xebicon.fr",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/HUpDdolbkg8/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/HUpDdolbkg8/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/HUpDdolbkg8/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/HUpDdolbkg8/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/HUpDdolbkg8/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 8,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "HUpDdolbkg8"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/t9zULtWrahd6pNI9mFheIlVwNDY\"",
+   "id": "UUw_N9xLx0-4ISqe2tzbXZPyHP-JsYUiL0",
+   "snippet": {
+    "publishedAt": "2015-11-20T09:58:00.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "XebiConFr 15 - CQRS + Eventsourcing : en direct !",
+    "description": "Tu penses que ton code legacy tout moche ne peut pas être migré vers un design alliant CQRS et Event Sourcing ? Nous allons te démontrer que c'est faisable, tout en travaillant avec du code existant et en rajoutant de la qualité.\n\nArchitecture design, hardcore refactoring et usage intensif des fonctionnalités de l'IDE seront de la partie lors de ce live coding.\n\nSite internet : http://xebicon.fr",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/QGGZs0KqxZw/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/QGGZs0KqxZw/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/QGGZs0KqxZw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 9,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "QGGZs0KqxZw"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/slBM-Mp7cKKqmV0NH4y7E3hRt8w\"",
+   "id": "UUw_N9xLx0-4K41t05EezkGQdaWvwO3Jml",
+   "snippet": {
+    "publishedAt": "2015-11-20T08:06:03.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "XebiConFr 15 - SGCIB / UX-Republic - La User eXperience au centre de l’entreprise",
+    "description": "Venez nous rejoindre pour découvrir comment la Société Générale a progressivement intégré l’UX Design au sein des équipes agiles.\n\nEn expérimentant les nouvelles approches Lean UX, le département informatique des financements structurés de la Société Générale (GBIS) a découvert de nouveaux gisements de valeur : satisfaction utilisateur, productivité accrue, grande visibilité, nouveaux usages et optimisation du business.\n\n\nNicolas Bourgeois :\nResponsable informatique chez Société Générale. Il intervient sur les applications pre-closing des financements structurés depuis 2 ans. Auparavant, Nicolas a travaillé sur des problématiques de sécurité informatique, enjeu majeur dans le secteur bancaire, ainsi que la gestion des process IT. Il est diplomé en informatique de l’IUT d’Orsay et en biologie moléculaire de l’université Paris XII.\n\nLes slides sont à retrouver ici : https://fr.slideshare.net/XebiaFrance/xebiconfr-15-socit-gnrale-ux-republic-la-user-experience-au-centre-de-lentreprise\n\nSite internet : http://xebicon.fr",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/BTfkkx3bv20/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/BTfkkx3bv20/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/BTfkkx3bv20/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/BTfkkx3bv20/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/BTfkkx3bv20/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 10,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "BTfkkx3bv20"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/mLDcZLudpe_out4cAkTFp7o1KlE\"",
+   "id": "UUw_N9xLx0-4KaJXIT5FxkhaUMIBa9LEL_",
+   "snippet": {
+    "publishedAt": "2015-11-19T14:42:55.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "XebiConFr 15 - Akamis - Les nouvelles méthodes d’acquisition client",
+    "description": "Les techniques d’acquisition traditionnelles sont en pertes de performance. Malgré ce bilan, le plus grand nombre reste accroché aux techniques monocanales tels que SEO, achats de mots clefs, achat d’audience non qualifiée ou qui pensent encore qu’une refonte ergonomique va tout résoudre.\n\nLe monde du Digital change et le marketing avec. Les utilisateurs, leurs attentes et leurs usages évoluent et on ne peut plus les intéresser avec les mêmes méthodes… le sel sur la queue des pigeons… c’était avant !\n\nLes slides sont à retrouver ici : https://fr.slideshare.net/XebiaFrance/xebiconfr-15-marketing-digital-les-anouvelles-mthodes-dacquisition-client/\n\nSite internet : http://xebicon.fr",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Y34S--_Xldw/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Y34S--_Xldw/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Y34S--_Xldw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/Y34S--_Xldw/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/Y34S--_Xldw/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 11,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "Y34S--_Xldw"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/1ohzMtsgltnjxYPwATTihv0vzz0\"",
+   "id": "UUw_N9xLx0-4JYg7ChF70R3HcFBV43g_kD",
+   "snippet": {
+    "publishedAt": "2015-11-19T10:55:02.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "XebiConFr 15 - Ingenico Group - Microservices et architecture réactive",
+    "description": "Ingenico a conçu une nouvelle génération de plateforme de services pour les marchands.\n\nDans le cadre de sa stratégie de développement des services autour de l’acceptation de paiement, Ingenico a conçu une nouvelle génération de plateforme de services pour les marchands. A partir des enjeux du projet (extensibilité, adaptation par pays, volumes et continuité de service), nous présenteront les choix technologiques effectués et l’architecture réactive à base de microservices qui a été mise en œuvre. Un premier retour d’expérience sera effectué.\n\nJean-François Caenen :\nAvec plus de 25 ans d’expérience en ingénierie de produits logiciels, en projets d’intégration et en conseil en architecture de Système d’Information, Jean-François CAENEN dirige actuellement la R&D Terminal Solutions du Groupe Ingenico. Pionnier des architectures d’intégration et fervent adepte des pratiques agiles, il est passionné par l’articulation entre la technologie et la différenciation métier ou marché. Diplômé de l’Ecole Polytechnique et de Sup Telecom Paris Tech, il a travaillé successivement pour Sesa, Digital Equipement, Atos et Capgemini avant de rejoindre Ingenico.\n\nLes slides sont à retrouver ici : https://fr.slideshare.net/XebiaFrance/xebiconfr-15-ingenico-group-microservices-et-architecture-ractive-pour-une-nouvelle-plateforme-de-services-autour-du-paiement-en-magasin\n\nSite internet : http://xebicon.fr",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/oIr_99caHNI/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/oIr_99caHNI/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/oIr_99caHNI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 12,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "oIr_99caHNI"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/t49jHIHbZSACd2Az6tNFSS2Q-Dw\"",
+   "id": "UUw_N9xLx0-4L_gdPgLaUjVfLPsMqAvLbv",
+   "snippet": {
+    "publishedAt": "2015-11-18T17:11:43.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "XebiConFr 15 - Aftermovie",
+    "description": "27 conférences, 10 témoignages clients, 1 expert café. \n\nCet évènement, organisé par Xebia et les sociétés de l'Alliance, est destiné à partager nos expériences acquises sur le terrain et lors de nos journées de partage de la connaissance, les XKE (Xebia Knowledge Exchange) que nous organisons mensuellement. \n\nVous y découvrirez le futur du digital : Objets et Services connectés, Big Data, Mobilité, User eXperience, Agilité, Web, DevOps, Cloud, Management 3.0, Architectures, pour ne citer que quelques thèmes abordés lors de cette journée. Ponctué de retours d'expérience de clients, de conférences techniques et d'échanges, le programme qui vous est proposé est riche en contenu. \n\nLes vidéos et slides des différentes conférences sont disponibles sur http://xebicon.fr. \n\nRendez-vovus à la XebiCon'16",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/kX9Xf0a5QiY/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/kX9Xf0a5QiY/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/kX9Xf0a5QiY/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/kX9Xf0a5QiY/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 13,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "kX9Xf0a5QiY"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/yH0Uli77z_E2yEGmJltvzdvZxEk\"",
+   "id": "UUw_N9xLx0-4Lvmj4pri-xGsJtYdZR0Ldi",
+   "snippet": {
+    "publishedAt": "2015-11-18T14:10:36.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "XebiConFr 15 - Les algorithmes du Machine Learning",
+    "description": "Le Machine Learning, sous-ensemble de l'Intelligence Artificielle, est la discipline donnant à un ordinateur la capacité d'apprendre sans avoir été explicitement programmé, en se basant sur des données d'entrée.\n\nSystèmes de recommandations, détection de fraude, prédiction de ventes, segmentation de clients: ses champs d'applications sont nombreux. Venez découvrir à travers cette présentation ce qui se cache derrière ces mots, quels algorithmes existent, comment ils fonctionnent, avec quels outils, dans quel cas et comment les utiliser.\n\nLes slides sont à retrouver ici : https://fr.slideshare.net/XebiaFrance/xebiconfr15-les-algorithmes-du-machine-learning\n\nSite internet : http://xebicon.fr",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/cvWs-C2MyRg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/cvWs-C2MyRg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/cvWs-C2MyRg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 14,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "cvWs-C2MyRg"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/TkeCD_FqOYjezH3oWFsXzdqP3Bo\"",
+   "id": "UUw_N9xLx0-4KF0_t0hFtanLmQ3IRamdXj",
+   "snippet": {
+    "publishedAt": "2015-11-18T12:31:56.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "XebiConFr 15 - WeScale - Le Nouvel Ops",
+    "description": "L'Ops d'hier maître absolu des clés dès la production n'est plus !\n\nLes nouvelles tendances issues du lean startup, du cloud et du mouvement DevOps transforment nos métiers. Entre la culture de l'innovation, le continuous delivery et le besoin toujours plus fort d'élasticité le métier des Ops se réinvente. Ne vous laissez pas abuser par l'apparente bonhomie de ce que certains appellent déjà \"No Ops\". Venez découvrir le travail de l'Ops de demain. Nous verrons ensemble son nouveau rôle dans une équipe DevOps. De la validation du code de provisionning au test en continue de l'infrastructure, le défi des Ops est maintenant de pouvoir déléguer aux équipes le déploiement des projet en toute tranquillité. Plus encore qu'un agiliste ou qu'un craftman, le nouvel Ops est le soutien dont vous avez besoin.\n\nLes slides sont à retrouver ici : http://fr.slideshare.net/XebiaFrance/xebiconfr-15-le-nouvel-ops\n\nSite internet : http://xebicon.fr",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/zeZL2QgTrCA/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/zeZL2QgTrCA/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/zeZL2QgTrCA/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 15,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "zeZL2QgTrCA"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/YIcVEsN9ZGrsUf75Gg5lNdlBP-U\"",
+   "id": "UUw_N9xLx0-4I4MLLN9LUFDQuNUp9Txd_r",
+   "snippet": {
+    "publishedAt": "2015-11-18T12:29:33.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "XebiConFr 15 - Apache Mesos, ou comment exploiter les ressources de votre datacenter ?",
+    "description": "Apache Mesos est le système d'exploitation du datacenter. Alors que les architectures microservices prennent leur essort, vous seriez en droit de vous demander comment faire pour optimiser l'exploitation des ressources de votre datacenter.\n\nLa virtualisation a permis de réduire les coûts liés à l'infrastructure en mutualisant les ressources. Il est maintenant possible de créer une machine virtuelle en quelques minutes. Les architectures microservices permettent de redimensionner le nombre de services au plus près des besoins et les quelques minutes de déploiement/provionning de la VMs ne permettent pas de tirer partie des promesses des architectures microservice. Mais alors, comment faire ? Venez découvrir comment Mesos, Marathon et Docker vous permettent d'exploiter au mieux les ressources de votre Datacenter.\n\nLes slides sont à retrouver ici : http://fr.slideshare.net/XebiaFrance/xebiconfr-15-apache-mesos-ou-comment-exploiter-les-ressources-de-votre-datacenter\n\nSite internet : http://xebicon.fr",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/gtqQUY_cQVg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/gtqQUY_cQVg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/gtqQUY_cQVg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/gtqQUY_cQVg/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/gtqQUY_cQVg/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 16,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "gtqQUY_cQVg"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/7Mc8nzGC-jCP5l_2fcDFNAqDNIQ\"",
+   "id": "UUw_N9xLx0-4LZNqDKH6WG9fzNnPsfVhHB",
+   "snippet": {
+    "publishedAt": "2015-11-16T10:35:01.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "Paris Scala User Group - Akka ! par Jean-Philippe Bunaz",
+    "description": "Pour gérer un nombre de plus en plus grand de demandes dans un monde où les temps de réponse doivent être de plus en plus faibles et où les indisponibilités sont de moins en moins tolérées, le développement d’applications concurrentes est une nécessitée. Je vous propose dans ce talk de venir découvrir une autre façon d’appréhender le développement d’applications concurrentes, au travers du framework Akka et du pattern d’Acteur. Au programme :Introduction au principe des ActeursPrésentation de mailbox et de routeursGestion des erreursDes exemples de mises en oeuvre (persistance, remote, cluster, circuit-breaker, stream,etc.)",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/W_g7w5rZhtA/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/W_g7w5rZhtA/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/W_g7w5rZhtA/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 17,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "W_g7w5rZhtA"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/6-HlCoW9Mkpyi5CaRTV7janha0c\"",
+   "id": "UUw_N9xLx0-4LN4KDo7agUvttX3Q4IXHah",
+   "snippet": {
+    "publishedAt": "2015-11-17T12:09:29.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "XebiConFr 15 - Scaling Culture : Agilité à l'échelle et Entreprise Libérée",
+    "description": "Face aux problèmes posés par l’agilité à grande échelle, on pense immédiatement méthodes et process, SAFE et Feature Teams en tête de pont. Et si, il existait un autre chemin ?\n\nL’agilité c’est l’auto-organisation, pas les process ! Comment peut-on être agile à l’échelle de l’organisation ? Comment s’assurer que l’on puisse continuer à porter l’agilité dans une organisation de milliers ou dizaine de milliers de personnes ? Et si plutôt que Scaling Agile, le mantra était : Scaling Culture ?\n\nLes slides sont à retrouver ici : http://fr.slideshare.net/XebiaFrance/xebiconfr-15-scaling-culture-agilit-lchelle-et-entreprise-libre",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/LW9q0e8s4N8/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/LW9q0e8s4N8/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/LW9q0e8s4N8/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/LW9q0e8s4N8/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/LW9q0e8s4N8/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 18,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "LW9q0e8s4N8"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/-KCfhMLFPHNnoM3ZTLscd7ZW4l0\"",
+   "id": "UUw_N9xLx0-4LGZIixGp_Dvej9OIKnLt86",
+   "snippet": {
+    "publishedAt": "2015-11-16T12:34:19.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "XebiConFr 15 - Thiga - Product Management : évaluez votre maturité",
+    "description": "Depuis plusieurs années, les experts de la communauté agile sont capables, en quelques jours, d'évaluer le degré d'agilité d'une équipe voire d'une organisation. Mais le plus souvent, cette analyse se limite à la phase de Product Development :\n\nL'équipe est elle correctement organisée ? les cérémonies sont-elles en place et génèrent-elles de la valeur ? La Definition of Done est-elle claire et partagée ? ... En d'autres mots, l'équipe est-elle capable de bien faire le produit qu'on lui demande de faire ? Si c'est le cas, vous avez fait la moitié du chemin ! Dans ce talk, nous allons vous donner les clés pour évaluer votre maturité produit. Votre entreprise a t'elle réellement les armes pour bien faire les bons produit ? (Product Discovery et Product Development) Avez-vous les bonnes compétences en interne ? (et lesquelles sont elles ?) Votre vision produit est-elle claire ? Validée ? Comment recueillez-vous le feedback de vos utilisateurs ? Comment l'intégrer dans la roadmap ? Avez-vous un processus d'ideation ? d'inspiration ? Combien de temps y consacrez-vous ? Comment gérez vous votre portefeuille produit ? Où en est votre culture de mesure ? Quali ? Quanti ? Quel équilibre entre les deux ? Quelles métriques ? Au travers de retours d'expérience, nous nous poserons toutes ces questions (et pleins d'autres) ensemble !\n\nPar Hugo Geissmann, Président de Thiga\nLes slides sont à retrouver ici : http://fr.slideshare.net/XebiaFrance/xebiconfr-15-thiga-valuez-votre-maturit-produit-h-geissmann",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/sk3OEbLtOBc/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/sk3OEbLtOBc/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/sk3OEbLtOBc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/sk3OEbLtOBc/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/sk3OEbLtOBc/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 19,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "sk3OEbLtOBc"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/Z23Tdl2dHDAIdtvaabKLfrlNRzM\"",
+   "id": "UUw_N9xLx0-4LFK09Luh3ya74G3S3HhJO5",
+   "snippet": {
+    "publishedAt": "2015-11-16T12:34:02.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "XebiConFr 15 - Swift dans la vraie vie",
+    "description": "Au cours de \"Swift dans la vraie vie\" vous assisterez à un retour d'expérience concernant l'utilisation du dernier langage d'Apple - maintenant Open Source - dans deux projets mobiles utilisés en production par quelques milliers d'utilisateurs.\n\nÀ travers une analyse des points de force et faiblesse de ce langage, vous comprendrez pourquoi il n'est pas trop osé de commencer tout de suite à développer votre prochaine application iOS en Swift.\n\nLes slides sont à retrouver ici : http://fr.slideshare.net/XebiaFrance/xebiconfr-15-swift-dans-la-vraie-vie\n\nSite internet : http://xebicon.fr",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/TxfXs7jOYgo/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/TxfXs7jOYgo/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/TxfXs7jOYgo/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/TxfXs7jOYgo/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/TxfXs7jOYgo/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 20,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "TxfXs7jOYgo"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/rdO7NdPiIY0H1fdwkNeK7LtQwPs\"",
+   "id": "UUw_N9xLx0-4I-4evi90XpQR8O5w-Ayogu",
+   "snippet": {
+    "publishedAt": "2015-11-13T15:46:39.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "Paris Scala User Group - Shapeless ? Facile ! par Valentin Kasas",
+    "description": "On ne va pas se mentir, shapeless ça fait un peu peur de prime abord. Des implicits de partout, plus de types que de code et une documentation un peu cryptique font qu'on ne sait pas vraiment par quel bout prendre cette lib.\n\nJe vais tenter de vous montrer que cette apparente difficulté est largement surestimée et qu'on peut en quelques minutes assimiler les bases et commencer à utiliser shapeless pour résoudre de vrais problèmes.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/19oEHsKer8Y/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/19oEHsKer8Y/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/19oEHsKer8Y/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/19oEHsKer8Y/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/19oEHsKer8Y/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 21,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "19oEHsKer8Y"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/3zI2-GyEjzTEsWRJ0lSrw0WRE-A\"",
+   "id": "UUw_N9xLx0-4JM6cNfK8OX3ZARtXkupO0U",
+   "snippet": {
+    "publishedAt": "2015-11-13T15:53:06.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "XebiConFr 15 - Keynote d'ouverture - AXA - Transformation digitale, les enjeux d'un grand groupe",
+    "description": "Yves Caseau :\nAyant rejoint le groupe Axa en 2014, Yves Caseau dirige la Digital Agency d'Axa et est en charge de l'accélération du développement des produits et des services digitaux pour les entités du groupe, en particulier sur les terminaux mobiles. Il se charge également du renforcement de l'innovation au service des clients et de l'amélioration des synergies technologiques et digitales, aux côtés des équipes IT.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/xutQcuFOrOE/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/xutQcuFOrOE/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/xutQcuFOrOE/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/xutQcuFOrOE/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/xutQcuFOrOE/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 22,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "xutQcuFOrOE"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/JhRYsLoEIcwaHiUvrbP2ixSVnUk\"",
+   "id": "UUw_N9xLx0-4LqJ5MfOjQTDxZqj6GLb7Oz",
+   "snippet": {
+    "publishedAt": "2015-11-17T12:07:51.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "XebiConFr 15 - Voyages sncf com - Les apports de la data science à la connaissance client",
+    "description": "Leader européen de la distribution du train, Voyages-Sncf.com a depuis plus d’1 an pris le virage du Big data, notamment pour développer la connaissance client et permettre ainsi une amélioration de son expérience utilisateur.\n\nDécouvrez par quelques illustrations comment cela révolutionne le marketing digital de Voyages-Sncf.com et comment cette nouvelle démarche a été implémentée au sein de l’entreprise.\n\n\nMarie-Laure Cassé :\nChez Voyages-sncf.com depuis 2010, Marie-Laure Cassé a occupé la fonction de directrice marketing digital avant de prendre la responsabilité depuis un an du « Big data client » dont les missions consistent grâce à l’exploitation de la data à développer la connaissance clients, à implémenter des solutions pour mieux personnaliser l’expérience utilisateur, à booster la performance du marketing digital etc. Auparavant, elle a exercé plusieurs fonctions au sein du marketing de La Fnac. Marie-Laure Cassé est diplômée de l'ESCP Europe.\n\nLes slides sont à retrouver ici : http://fr.slideshare.net/XebiaFrance/xebiconfr-15-voyagessncfcom-les-apports-de-la-data-science-la-connaissance-client-rex-voyagessncfcom",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/px0Yeuw7rjY/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/px0Yeuw7rjY/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/px0Yeuw7rjY/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/px0Yeuw7rjY/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/px0Yeuw7rjY/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 23,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "px0Yeuw7rjY"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/eHN2s7cyKXujcYuaoaTR9XGyhEc\"",
+   "id": "UUw_N9xLx0-4Ll5w0TjWx-JgS0IqZdraSl",
+   "snippet": {
+    "publishedAt": "2015-11-12T13:28:08.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "Backbone.js Paris S02E01",
+    "description": "Meetup Backbone.js Paris S02E01 : \n\n— Backbone & ES2015 par Florent Duveau\n\n— Tester ses Behaviors Marionette.js par Nicolas Carlo\n\n— Revue de presse par Raphaël Lemaire\n\n— Refonte espace client de Bouygues Telecom: Intégration de l'ancien espace client dans une SPA sous Backbone par Stéphane Bachelier et Carl Ogren",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/0VHW_7PyjBw/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/0VHW_7PyjBw/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/0VHW_7PyjBw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/0VHW_7PyjBw/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/0VHW_7PyjBw/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 24,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "0VHW_7PyjBw"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/HDo5I0pUv6KWZPubsHpQ0grxM5c\"",
+   "id": "UUw_N9xLx0-4I-qnplCVqECbPSkz3OagO9",
+   "snippet": {
+    "publishedAt": "2015-10-13T08:52:53.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "EPISODE 8 : VIS MA VIE DE DIRECTRICE COMMERCIALE",
+    "description": "Cette aventure ludique a été proposée aux consultants de Xebia pour leur permettre d’expérimenter les autres métiers au sein de l’entreprise. Cette expérience leur a permis d’appréhender les responsabilités, contraintes, tâches et prérogatives de chaque fonction (souvent ignorées ou incomprises) et de partager largement, sans censure, les leçons apprises pour mieux vivre ensemble.\n\nC'est une autre forme de partage de la connaissance, valeur qui nous est si chère !\n\nUne réalisation www.eoprod.com",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Njkw4eAn8lc/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Njkw4eAn8lc/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Njkw4eAn8lc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/Njkw4eAn8lc/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/Njkw4eAn8lc/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 25,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "Njkw4eAn8lc"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/5s2ymyZKNeB2zT2tBVzwm2q8E3w\"",
+   "id": "UUw_N9xLx0-4K-e_EUiN-Gm0ZVMAt4Qq9y",
+   "snippet": {
+    "publishedAt": "2015-10-23T16:43:29.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "EPISODE 9 : VIS MA VIE DE CONSULTANT MANAGER",
+    "description": "Cette aventure ludique a été proposée aux consultants de Xebia pour leur permettre d’expérimenter les autres métiers au sein de l’entreprise. Cette expérience leur a permis d’appréhender les responsabilités, contraintes, tâches et prérogatives de chaque fonction (souvent ignorées ou incomprises) et de partager largement, sans censure, les leçons apprises pour mieux vivre ensemble.\n\nC'est une autre forme de partage de la connaissance, valeur qui nous est si chère !\n\nUne réalisation www.eoprod.com",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/PgDO9QhpRDk/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/PgDO9QhpRDk/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/PgDO9QhpRDk/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/PgDO9QhpRDk/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/PgDO9QhpRDk/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 26,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "PgDO9QhpRDk"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/SQyikBZFyMIqZ4OO-Cy6c1v3ak4\"",
+   "id": "UUw_N9xLx0-4J1uP-7AbjCYGl5d92dMDwd",
+   "snippet": {
+    "publishedAt": "2015-09-22T09:54:31.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "XebiCon - La conférence dédiée au futur du digital à Paris",
+    "description": "Build the Future. \nVous avez aimé l'Open XKE, vous adorerez la XebiCon ! \n\n27 conférences, 10 témoignages clients, 1 expert café. \n\nCet évènement, organisé par les Xebians et les sociétés de l'Alliance, est destiné à partager nos expériences acquises sur le terrain et lors de nos journées de partage de la connaissance, les XKE (Xebia Knowledge Exchange) que nous organisons mensuellement. \n\nVous y découvrirez le futur du digital : Objets et Services connectées, Big Data, Mobilité, User eXperience, Agilité, Web, DevOps, Cloud, Management 3.0, Architectures, pour ne citer que quelques thèmes abordés lors de cette journée. Ponctué de retours d'expérience de clients, de conférences techniques et d'échanges, le programme qui vous est proposé est riche en contenu. Vous pourrez également adresser vos questions à nos Xebians dans un format One to One lors des Expert Cafés. \n\nDans l'attente de vous y rencontrer. \n\nLuc Legardeur, Président",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/COA2Cxm84u4/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/COA2Cxm84u4/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/COA2Cxm84u4/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 27,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "COA2Cxm84u4"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/7hFQiangYDacQd-340jKu8ixB4Q\"",
+   "id": "UUw_N9xLx0-4LoUjFimkNPIaVXNNZN7rp4",
+   "snippet": {
+    "publishedAt": "2015-10-06T09:59:47.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "EPISODE 7 : VIS MA VIE DE COO",
+    "description": "Cette aventure ludique a été proposée aux consultants de Xebia pour leur permettre d’expérimenter les autres métiers au sein de l’entreprise. Cette expérience leur a permis d’appréhender les responsabilités, contraintes, tâches et prérogatives de chaque fonction (souvent ignorées ou incomprises) et de partager largement, sans censure, les leçons apprises pour mieux vivre ensemble.\n\nC'est une autre forme de partage de la connaissance, valeur qui nous est si chère !\n\nUne réalisation www.eoprod.com",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/UXm54jMq6TI/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/UXm54jMq6TI/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/UXm54jMq6TI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/UXm54jMq6TI/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/UXm54jMq6TI/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 28,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "UXm54jMq6TI"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/G6rQeUxaYOJdfYB5sifccoQp11o\"",
+   "id": "UUw_N9xLx0-4JXr3rLHIXJS1jhqDjYOgiP",
+   "snippet": {
+    "publishedAt": "2015-09-29T06:55:14.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "EPISODE 6 : VIS MA VIE DE DAF",
+    "description": "Cette aventure ludique a été proposée aux consultants de Xebia pour leur permettre d’expérimenter les autres métiers au sein de l’entreprise. Cette expérience leur a permis d’appréhender les responsabilités, contraintes, tâches et prérogatives de chaque fonction (souvent ignorées ou incomprises) et de partager largement, sans censure, les leçons apprises pour mieux vivre ensemble.\n\nC'est une autre forme de partage de la connaissance, valeur qui nous est si chère !\n\nUne réalisation www.eoprod.com",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/os54MbZA_18/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/os54MbZA_18/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/os54MbZA_18/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/os54MbZA_18/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/os54MbZA_18/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 29,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "os54MbZA_18"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/Y-pnrClDQrI2ADVRHs0aS3BYo9s\"",
+   "id": "UUw_N9xLx0-4KC-mOpWngTlDVX0ZgUG6hq",
+   "snippet": {
+    "publishedAt": "2015-09-22T06:55:35.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "EPISODE 5 : VIS MA VIE DE DIRECTRICE MARKETING",
+    "description": "Cette aventure ludique a été proposée aux consultants de Xebia pour leur permettre d’expérimenter les autres métiers au sein de l’entreprise. Cette expérience leur a permis d’appréhender les responsabilités, contraintes, tâches et prérogatives de chaque fonction (souvent ignorées ou incomprises) et de partager largement, sans censure, les leçons apprises pour mieux vivre ensemble.\n\nC'est une autre forme de partage de la connaissance, valeur qui nous est si chère !\n\nUne réalisation www.eoprod.com",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/gGGOJzL5Vhg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/gGGOJzL5Vhg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/gGGOJzL5Vhg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/gGGOJzL5Vhg/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/gGGOJzL5Vhg/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 30,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "gGGOJzL5Vhg"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/JXz65IxgSB2uoJYypXAnMkS-WCM\"",
+   "id": "UUw_N9xLx0-4KOjWTHvrCg12rN_vDEFWwx",
+   "snippet": {
+    "publishedAt": "2015-09-15T11:53:41.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "EPISODE 4 : VIS MA VIE DE DIRECTRICE RECRUTEMENT",
+    "description": "Cette aventure ludique a été proposée aux consultants de Xebia pour leur permettre d’expérimenter les autres métiers au sein de l’entreprise. Cette expérience leur a permis d’appréhender les responsabilités, contraintes, tâches et prérogatives de chaque fonction (souvent ignorées ou incomprises) et de partager largement, sans censure, les leçons apprises pour mieux vivre ensemble.\n\nC'est une autre forme de partage de la connaissance, valeur qui nous est si chère !\n\nUne réalisation www.eoprod.com",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/y0cFgueZPJU/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/y0cFgueZPJU/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/y0cFgueZPJU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/y0cFgueZPJU/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 31,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "y0cFgueZPJU"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/tj5mPZ0PrNlNveHyA1OS05EBUac\"",
+   "id": "UUw_N9xLx0-4KuAIVjGsBYAsHrfR1JeD3r",
+   "snippet": {
+    "publishedAt": "2015-09-08T10:10:31.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "EPISODE3 : VIS MA VIE DE DIRECTEUR XEBIA STUDIO",
+    "description": "Cette aventure ludique a été proposée aux consultants de Xebia pour leur permettre d’expérimenter les autres métiers au sein de l’entreprise. Cette expérience leur a permis d’appréhender les responsabilités, contraintes, tâches et prérogatives de chaque fonction (souvent ignorées ou incomprises) et de partager largement, sans censure, les leçons apprises pour mieux vivre ensemble.\n\nC'est une autre forme de partage de la connaissance, valeur qui nous est si chère !",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/PKSHTaxoHjs/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/PKSHTaxoHjs/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/PKSHTaxoHjs/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/PKSHTaxoHjs/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/PKSHTaxoHjs/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 32,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "PKSHTaxoHjs"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/IdZxQwj3PDduM7FXamukxuU1uck\"",
+   "id": "UUw_N9xLx0-4JPU0Gag-xHvZMcfvya0M8Y",
+   "snippet": {
+    "publishedAt": "2015-08-25T08:47:34.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "EPISODE 1 : VIS MA VIE DE PRESIDENT CHEZ XEBIA",
+    "description": "Cette aventure ludique a été proposée aux consultants de Xebia pour leur permettre d’expérimenter les autres métiers au sein de l’entreprise. Cette expérience leur a permis d’appréhender les responsabilités, contraintes, tâches et prérogatives de chaque fonction (souvent ignorées ou incomprises) et de partager largement, sans censure, les leçons apprises pour mieux vivre ensemble.\n\nC'est une autre forme de partage de la connaissance, valeur qui nous est si chère !\n\nUne réalisation www.eoprod.com",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/KsscgrEtfdQ/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/KsscgrEtfdQ/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/KsscgrEtfdQ/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/KsscgrEtfdQ/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/KsscgrEtfdQ/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 33,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "KsscgrEtfdQ"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/Mi12vX7DdAcD5I7_7E_IetBUeZg\"",
+   "id": "UUw_N9xLx0-4KEJmgCvrYF6gi3XGgZg6w_",
+   "snippet": {
+    "publishedAt": "2015-09-01T07:34:21.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "EPISODE 2 : VIS MA VIE DE CTO CHEZ XEBIA",
+    "description": "Cette aventure ludique a été proposée aux consultants de Xebia pour leur permettre d’expérimenter les autres métiers au sein de l’entreprise. Cette expérience leur a permis d’appréhender les responsabilités, contraintes, tâches et prérogatives de chaque fonction (souvent ignorées ou incomprises) et de partager largement, sans censure, les leçons apprises pour mieux vivre ensemble.\n\nUne réalisation www.eoprod.com",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/qy82p2sr2mQ/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/qy82p2sr2mQ/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/qy82p2sr2mQ/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/qy82p2sr2mQ/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/qy82p2sr2mQ/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 34,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "qy82p2sr2mQ"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/mfw9aG2HaaQLajFhUxkqyvA-6uI\"",
+   "id": "UUw_N9xLx0-4KNRb7OOAnXOMyhoIysJGYF",
+   "snippet": {
+    "publishedAt": "2015-07-20T08:20:27.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "HyperLogLog - XKE",
+    "description": "HyperLogLog est un algorithme probabiliste de dénombrement d’éléments uniques dans un ensemble. Il fournit une réponse approchée du vrai résultat. Dans cette vidéo, Florent Le Gall l'explicite lors de notre journée de partage de connaissance, le XKE.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/QSy5Y1lZtcs/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/QSy5Y1lZtcs/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/QSy5Y1lZtcs/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 35,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "QSy5Y1lZtcs"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/6sCi9LMzE7A08n3EH5abk2mHR_s\"",
+   "id": "UUw_N9xLx0-4JDx3b-18O8itdIDlWGKtkY",
+   "snippet": {
+    "publishedAt": "2015-06-29T16:13:55.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "Spark Meetup 11/06/15 - Sean Owen",
+    "description": "Le 11 juin dernier, le Paris Spark Meetup a réuni plus de 280 personnes à la Société Générale.\nAvec l’aide de notre partenaire technologique , Cloudera, et Influans, nous avons mis notre expertise en commun sur Apache Spark.\nAfin de découvrir ces technologies et frameworks utilisés dans le traitement de la donnée, trois sessions étaient au programme.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/2twefLKkW0o/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/2twefLKkW0o/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/2twefLKkW0o/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 36,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "2twefLKkW0o"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/eecMGEkQfx7s2yMnl6_WrBmv_gc\"",
+   "id": "UUw_N9xLx0-4KArpt7uPIwPPX7JEsvb4wn",
+   "snippet": {
+    "publishedAt": "2015-06-04T11:02:54.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "Backday Xebia - Keynote - La programmation réactive pour répondre aux défis d'aujourd'hui",
+    "description": "La manière de développer des logiciels a changé. Pour suivre les changements de l'IT, dû à l'augmentation du volume de transactions, du nombre d'appareils connectés et des attentes utilisateurs, une nouvelle architecture a vu le jour pour répondre aux défis d'aujourd'hui : la programmation réactive.\n\nQu'est ce que c'est ? Quelles sont les caractéristiques et propriétés derrière ce terme ? Nous allons explorer pourquoi les entreprises se tournent vers ces systèmes réactifs aujourd'hui, à travers des exemples de grandes sociétés.\n\nPar Ygor Lutz, Typesafe",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/0Z9-hzuuqeI/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/0Z9-hzuuqeI/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/0Z9-hzuuqeI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 37,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "0Z9-hzuuqeI"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/i9zb-YCabYkdgrZE16Vq3xjGXy0\"",
+   "id": "UUw_N9xLx0-4I-LyNQDS0PDBSxDKojDm3E",
+   "snippet": {
+    "publishedAt": "2015-06-04T11:17:55.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "BackDay Xebia - Résilience : Chaos Monkey",
+    "description": "La résilience est aujourd'hui un enjeu majeur pour les SI, afin d'accroitre la disponibilité et par rebond, la rentabilité des applications de l'entreprise.\nA travers quelques concepts simples à édicter (mais parfois compliqués à implémenter), nous vous démontrerons comment atteindre un niveau optimal de résilience, que ce soit sur le cloud ou dans votre propre data center.\n\nPar Pablo Lopez, CTO chez Xebia et Vincent Spiewak, consultant chez Xebia",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/2rxTr8DnOuE/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/2rxTr8DnOuE/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/2rxTr8DnOuE/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 38,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "2rxTr8DnOuE"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/O-ST4zCOSzuKeKnlYBfwNhEFRmM\"",
+   "id": "UUw_N9xLx0-4KpxzQzIULsdIdp6hVu_Ozd",
+   "snippet": {
+    "publishedAt": "2015-06-04T11:17:57.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "BackDay Xebia - Retour d’expérience sur l’ingestion d’événements dans HDFS",
+    "description": "Les architectures message-driven sont pensées afin d’offrir une possibilité de gérer un grand nombre d’événements. Si la volumétrie de ces éléments devient suffisante, il sera probablement judicieux de stocker le tout dans un cluster HDFS.\n\nNous présenterons un retour d’expérience d’ingestion d’événements depuis un broker Kafka vers un cluster HDFS.\n\nPar Sylvain Lecqueux, consultant chez Xebia",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/7eyUUDgbllM/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/7eyUUDgbllM/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/7eyUUDgbllM/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/7eyUUDgbllM/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/7eyUUDgbllM/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 39,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "7eyUUDgbllM"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/8cCB4lvv_39rfd68Hvj1d26JfIM\"",
+   "id": "UUw_N9xLx0-4IVoWtMVYWwCsm8Eg-VC2xE",
+   "snippet": {
+    "publishedAt": "2015-06-04T11:17:59.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "BackDay Xebia - Microservice en demo",
+    "description": "Les architectures microservices sont en pleine explosion actuellement. Beaucoup d’articles sont parus sur le sujet et nombre de projets se lancent sur ce modèle.\n\nPlusieurs frameworks permettant de mettre en place facilement des microservices existent, dont, notamment, Vert.x. Venez les découvrir !\n\nPar Romain Niveau et Thomas Auffredou, consultants chez Xebia",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/bcDE1zgvQkc/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/bcDE1zgvQkc/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/bcDE1zgvQkc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/bcDE1zgvQkc/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/bcDE1zgvQkc/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 40,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "bcDE1zgvQkc"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/5hNI4g5zRQM7cwbHdr1QmokCP7A\"",
+   "id": "UUw_N9xLx0-4I3sb63SpGrXY0Lpd3ZiZL6",
+   "snippet": {
+    "publishedAt": "2015-06-04T11:18:02.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "BackDay Xebia - Découvrez Spring Boot sur un cas pratique",
+    "description": "Spring Boot propose un large panel d'outils pour démarrer et développer rapidement des applications.\n\nAprès une rapide introduction à l'outil, nous présenterons le code d'une application développé en mode microservices. Ce sera aussi l'occasion d'évoquer les principes de circuit breaker et de monitoring ainsi que de savoir comment Spring Boot permet de les réaliser.\n\nPar Nicolas Jozwiak et Thomas Auffredou, consultants chez Xebia",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/CczOHlGUgu0/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/CczOHlGUgu0/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/CczOHlGUgu0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/CczOHlGUgu0/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/CczOHlGUgu0/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 41,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "CczOHlGUgu0"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/7F8T3-sGG5cpf1ruKMzfuDDgWOs\"",
+   "id": "UUw_N9xLx0-4Lkf2-ETr4iVCs7ImV8NciA",
+   "snippet": {
+    "publishedAt": "2015-06-12T10:06:18.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "BackDay - REX Société Générale : explorer les principes de l'Event Sourcing",
+    "description": "La simplicité comme moyen d'être performant, résilient et de réduire le Time To Market.\n\nIl y a 1 an et demi, la Société Générale a décidé de construire un nouveau service de vente électronique de nos produits financiers. Les contraintes étaient claires : \"le système sera performant, auditable, résilient et développé de manière à avoir un Time To Market court\". Une seule solution s'imposait à nous : faire simple, très simple ! \nAinsi à travers cette présentation, nous vous raconterons notre quête de simplicité. Vous verrez ainsi que notre stack technique ne contient quasiment aucun framework, juste quelques bibliothèques utiles ou indispensables. Notre code se structure autour de quelques principes : l'Event Sourcing, un peu de Domain Driven Design et une discipline de fer en matière de qualité et de tests automatisés (BDD for the win!).",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/S8566fyZHp0/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/S8566fyZHp0/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/S8566fyZHp0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/S8566fyZHp0/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/S8566fyZHp0/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 42,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "S8566fyZHp0"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/QlQhit_JZ7iJZlaFN6PYH2BgI40\"",
+   "id": "UUw_N9xLx0-4LA7z9K0AMPFxej_BW-bkQW",
+   "snippet": {
+    "publishedAt": "2015-06-26T09:38:03.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "BackDay - REX VSCT pour SNCF : à la découverte des microservices",
+    "description": "Secrets de conception d’une application innovante au service des voyageurs.\n\nDécouvrez les dessous de la nouvelle application mobile SNCF. Quelles sont les solutions pour unifier des sources d’informations ? Comment donner à une équipe l’autonomie pour construire un produit, du besoin à sa mise en production ? Comment construire une architecture applicative qui répond à des exigences de scalabilité et de disponibilité ? \n\nNous proposerons de découvrir un retour d'expérience de mise en oeuvre sur Amazon Web Services d'une architecture à base de microservices reposant sur la JVM, Node.js et bien d'autres technologies telles qu'InfluxDB, Redis, MongoDB, RabbitMQ ou bien encore Elasticsearch. Mais également comment nous avons résolu des problématiques telles que le rolling update, la gestion de version et de rétro-compatibilité des API ou bien encore la redescende d'informations à l'initiative des serveurs grâce aux WebSockets.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/SWc2k8OrcIQ/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/SWc2k8OrcIQ/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/SWc2k8OrcIQ/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/SWc2k8OrcIQ/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/SWc2k8OrcIQ/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 43,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "SWc2k8OrcIQ"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/mRJ_YswHKtJ_KIwa_YJ7pm79zFE\"",
+   "id": "UUw_N9xLx0-4L0XAAEC4XWbPnNWhBj75Lg",
+   "snippet": {
+    "publishedAt": "2015-06-02T15:15:06.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "Raft - un consensus qui met tout le monde d'accord",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/ate3cSUcyhw/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/ate3cSUcyhw/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/ate3cSUcyhw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 44,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "ate3cSUcyhw"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/BhbBwHmBxYy9SoTh2NzDq2_AI4s\"",
+   "id": "UUw_N9xLx0-4IVlU6g188v8eCzue33W-1B",
+   "snippet": {
+    "publishedAt": "2015-06-02T15:21:54.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "les Design Pattern à la sauce Lambda (par Rémi Forax)",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/aC1wGHDOQic/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/aC1wGHDOQic/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/aC1wGHDOQic/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 45,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "aC1wGHDOQic"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/4Xn6tHHwbVW_JuLd_Rv6lj_trZA\"",
+   "id": "UUw_N9xLx0-4IHiDWBaxwMVCQz_VZuFd3m",
+   "snippet": {
+    "publishedAt": "2015-06-02T09:56:36.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "Envoyer vos Raspberry dans les nuages",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/VSo1pvuMPes/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/VSo1pvuMPes/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/VSo1pvuMPes/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 46,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "VSo1pvuMPes"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/lB_rmmQC1-iqHvp_VDe2I3m3U2A\"",
+   "id": "UUw_N9xLx0-4Kd2MUjBrCQxu6shczHztN0",
+   "snippet": {
+    "publishedAt": "2015-05-05T14:35:42.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "Double loop TDD example",
+    "description": "Le Double Loop TDD consiste à ajouter un test d'acceptance qui échoue (un test BDD généralement), puis ensuite implémenter la fonctionnalité ajoutée à travers une ou plusieurs boucles TDD. Dans cet exemple, il s'agit d'une application de gestion de comptes bancaires développée en Java. Nous utilisons ici le framework cucumber pour implémenter les tests BDD.\ncraft tdd bdd cucumber kata screencast",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/gd6aD5BdVps/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/gd6aD5BdVps/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/gd6aD5BdVps/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 47,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "gd6aD5BdVps"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/q9bP99KLDyr59ZqfP8JxvtRI_Dc\"",
+   "id": "UUw_N9xLx0-4JPIJf1DMgtDjd8YufdT5qF",
+   "snippet": {
+    "publishedAt": "2015-04-23T16:22:04.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "Meetup Docker #19 with guest star J. Petazzoni (Docker) - Part 2",
+    "description": "Revivez le Meetup Docker Paris (du 9 mars 2015) très spécial, co-organisé avec Xebia à la SGCIB. À cette occasion, nous avons accueilli un monument de Docker à savoir Jérôme Petazzoni. \n\nProgramme des festivités :\n• Part 1&2 de la vidéo : Plongée au cœur des storage drivers de Docker par Jérôme Petazzoni (Docker Inc) \n• Part 2 de la vidéo : Tools in action : un Jenkins amélioré avec Docker, Mesos et Marathon par Jean-Louis Rigau (Xebia)\n• Part 2 de la vidéo : REX sur l'utilisation de Docker avec Akka, Mesos et Zookeeper par Nicolas Jozwiak (Xebia) & Fabian Gutierrez (Xebia)",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/ytg7h73If9A/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/ytg7h73If9A/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/ytg7h73If9A/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 48,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "ytg7h73If9A"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/V1t_JpPjfWHow4gkwB2T5sNG9F0\"",
+   "id": "UUw_N9xLx0-4IgVlj0GAX35zn8T4PN6z6o",
+   "snippet": {
+    "publishedAt": "2015-04-23T16:19:48.000Z",
+    "channelId": "UCDSbqKhAoWZARlWAPbf88rg",
+    "title": "Meetup Docker #19 with guest star J. Petazzoni (Docker) - Part 1",
+    "description": "Revivez le Meetup Docker Paris (du 9 mars 2015) très spécial, co-organisé avec Xebia à la SGCIB. À cette occasion, nous avons accueilli un monument de Docker à savoir Jérôme Petazzoni. \n\nProgramme des festivités :\n• Part 1&2 de la vidéo : Plongée au cœur des storage drivers de Docker par Jérôme Petazzoni (Docker Inc) \n• Part 2 de la vidéo : Tools in action : un Jenkins amélioré avec Docker, Mesos et Marathon par Jean-Louis Rigau (Xebia)\n• Part 2 de la vidéo : REX sur l'utilisation de Docker avec Akka, Mesos et Zookeeper par Nicolas Jozwiak (Xebia) & Fabian Gutierrez (Xebia)",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/8KgebcNt5YM/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/8KgebcNt5YM/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/8KgebcNt5YM/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/8KgebcNt5YM/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "Xebia TV",
+    "playlistId": "UUDSbqKhAoWZARlWAPbf88rg",
+    "position": 49,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "8KgebcNt5YM"
+    }
+   }
+  }
+ ]
+}

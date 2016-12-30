@@ -1,0 +1,83 @@
+{
+  "categories" : [
+    {
+      "name" : "Nos dernières vidéos",
+      "id" : "UUDSbqKhAoWZARlWAPbf88rg"
+    },
+    {
+      "name" : "Conférences",
+      "id" : "PL-Wbj9VN8zDTXbjYVs1BWDkX1jxrU_Tim"
+    },
+    {
+      "name" : "Days",
+      "id" : "PL-Wbj9VN8zDSUpyU2oJE5Mo9AXuGoIxZ9"
+    },
+    {
+      "name" : "Meetup",
+      "id" : "PL-Wbj9VN8zDRKI7vhw28H5LGT4dVq4N21"
+    },
+    {
+      "name" : "Screencast",
+      "id" : "PL-Wbj9VN8zDQHf2GhaM8vTD88JeMw2zGd"
+    },
+    {
+      "name" : "Vis ma vie",
+      "id" : "PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48"
+    },
+    {
+      "name" : "XebiCon'15",
+      "id" : "PL-Wbj9VN8zDTRHZ0_Y5FX0xYrn1sv9oBF"
+    },
+    {
+      "name" : "XKE",
+      "id" : "PL-Wbj9VN8zDQc2h5o4hNQHdf3kGCtMwoS"
+    }
+  ],
+  "fundations" : [
+    {
+      "name" : "Agile",
+      "id" : "PL-Wbj9VN8zDTKPqM1RiZDZBAv3cxvbevR",
+      "color" : "#d7d5d0"
+    },
+    {
+      "name" : "Back",
+      "id" : "PL-Wbj9VN8zDTH93VdwNV6qf_Auq2TxaKA",
+      "color" : "#aa2615"
+    },
+    {
+      "name" : "Cloud",
+      "id" : "PL-Wbj9VN8zDTLOjMgu_xg3WanSbtWzn9b",
+      "color" : "#06a99c"
+    },
+    {
+      "name" : "Craft",
+      "id" : "PL-Wbj9VN8zDSk0ddDxfi_L00rCJGZ4U32",
+      "color" : "#afcd37"
+    },
+    {
+      "name" : "Data",
+      "id" : "PL-Wbj9VN8zDQk17VjMeI9SfHhqUHtv-86",
+      "color" : "#df0075"
+    },
+    {
+      "name" : "DevOps",
+      "id" : "PL-Wbj9VN8zDTuiPcbtIaGT7U_HPQwxwJs",
+      "color" : "#06a99c"
+    },
+    {
+      "name" : "Front",
+      "id" : "PL-Wbj9VN8zDRdpH-DCHBkxkqz8vhotAh9",
+      "color" : "#00a0d4"
+    },
+    {
+      "name" : "IoT",
+      "id" : "PL-Wbj9VN8zDTp0ZuT53RS4uIi4RDjMQJt",
+      "color" : "#B26792"
+    },
+    {
+      "id" : "PL-Wbj9VN8zDR75h2hidpjBkcoHWBZxSzG",
+      "name" : "Mobile",
+      "color" : "#1447d3"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+ "kind": "youtube#searchListResponse",
+ "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/cOJBmlgwUTCz8ntyDX5ZV_miZDc\"",
+ "pageInfo": {
+  "totalResults": 2,
+  "resultsPerPage": 5
+ },
+ "items": [
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/tSiccMnBrr1dH_sRnUY9Ey0Wrtg\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "p7t_GWXmgFk"
+   },
+   "snippet": {
+    "publishedAt": "2015-11-13T22:36:22.000Z",
+    "channelId": "UCCCPCZNChQdGa9EkATeye4g",
+    "title": "FRANCE 24 live news stream: all the latest news 24/7",
+    "description": "Watch FRANCE 24 live in English on YouTube for free Subscribe to France 24 now http://f24.my/YouTubeEN Watch France 24 live news: all the latest news live ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/p7t_GWXmgFk/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/p7t_GWXmgFk/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/p7t_GWXmgFk/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "france24",
+    "liveBroadcastContent": "live"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"mPrpS7Nrk6Ggi_P7VJ8-KsEOiIw/rRxLEi38_QoTeVJeRvB3lXwbOz4\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "qKEk1YCOz8Q"
+   },
+   "snippet": {
+    "publishedAt": "2015-08-06T07:22:59.000Z",
+    "channelId": "UCCCPCZNChQdGa9EkATeye4g",
+    "title": "EN DIRECT : l'info internationale en continu par FRANCE 24",
+    "description": "Regardez France 24 en DIRECT gratuitement : toute l'info internationale 24h/24. Abonnez-vous à notre chaîne sur YouTube : http://f24.my/YouTube Commentez ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/qKEk1YCOz8Q/default.jpg"
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/qKEk1YCOz8Q/mqdefault.jpg"
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/qKEk1YCOz8Q/hqdefault.jpg"
+     }
+    },
+    "channelTitle": "france24",
+    "liveBroadcastContent": "live"
+   }
+  }
+ ]
+}
