@@ -21,17 +21,10 @@ drop.get("/search") { req in
     return Response(body: .data(fileBody))
 }
 
-private func launchLiveStreamer(videoId: String) -> (success: Bool, data: Data?) {
-    return shell("/usr/local/bin/livestreamer", args: ["https://www.youtube.com/watch?v=" + videoId, "--json", "--stream-url"])
-}
-
 drop.get("/video", String.self) { req, videoId in
     let liveStreamerResult = launchLiveStreamer(videoId: videoId)
-    if !liveStreamerResult.success {
-        return try Response(status: .internalServerError, json: JSON(node: [:]))
-    }
     
-    guard let data = liveStreamerResult.data else {
+    guard let data = liveStreamerResult else {
         return try Response(status: .noContent, json: JSON(node: [:]))
     }
     
