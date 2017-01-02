@@ -22,32 +22,9 @@ drop.get("/search") { req in
 }
 
 drop.get("/video", String.self) { req, videoId in
-    let liveStreamerResult = launchLiveStreamer(videoId: videoId)
-    
-    guard let data = liveStreamerResult else {
+    guard let urls = try LiveStreamerReader.read(videoId: videoId) else {
         return try Response(status: .noContent, json: JSON(node: [:]))
     }
-    
-    guard let jsonObject = try JSONSerialization.jsonObject(with: data, options: []) as? [AnyHashable : Any],
-        let streams = jsonObject["streams"] as? [AnyHashable : Any]
-    else {
-        return try Response(status: .noContent, json: JSON(node: [:]))
-    }
-    
-    let urls = streams
-        .flatMap { key, value -> Node? in
-            guard let stringKey = key as? String,
-                let dictValue = value as? [AnyHashable : Any],
-                let urlString = dictValue["url"] as? String
-            else { return nil }
-            
-            return Node.object([
-                "type": "video/mp4",
-                "quality": Node.string(stringKey),
-                "url": Node.string(urlString)
-            ])
-    }
-    
     return try Response(status: .ok, json: JSON(node: Node.array(urls)))
 }
 
