@@ -1,0 +1,16 @@
+version: '2'
+services:
+  web:
+    build: 
+      context: .
+      args:
+        SWIFT_VERSION: swift-3.0.2-RELEASE
+    volumes:
+      - ".:/vapor"
+    ports:
+      - "8080:8080"
+    links:
+      - "db:redis"
+
+  db:
+    image: redis
