@@ -25,7 +25,7 @@ drop.get("/video", String.self) { req, videoId in
     guard let urls = try LiveStreamerReader.read(videoId: videoId) else {
         return try Response(status: .noContent, json: JSON(node: [:]))
     }
-    return try Response(status: .ok, json: JSON(node: Node.array(urls)))
+    return try Response(status: .ok, json: JSON(node: ["url": Node.array(urls)]))
 }
 
 drop.get { req in
