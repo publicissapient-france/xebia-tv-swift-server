@@ -2,7 +2,7 @@ import Foundation
 import Vapor
 
 class LiveStreamerReader {
-    static func read(videoId: String, commandInteractor: CommandInteractor.Type = UnixCommandInteractor.self) throws ->[Node]? {
+    static func read(videoId: String, commandInteractor: CommandInteractor.Type = UnixCommandInteractor.self) throws -> [Node]? {
         let liveStreamerResult = commandInteractor.launch("/usr/local/bin/livestreamer", args: ["https://www.youtube.com/watch?v=" + videoId, "--json", "--stream-url", "--yes-run-as-root"])
        
         guard let data = liveStreamerResult else {
