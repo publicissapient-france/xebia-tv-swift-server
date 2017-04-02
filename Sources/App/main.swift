@@ -2,8 +2,10 @@ import Vapor
 import Foundation
 import Core
 import HTTP
+import VaporRedis
 
 let drop = Droplet()
+try drop.addProvider(VaporRedis.Provider(config: drop.config))
 let categoryController = CategoryController()
 let youtubeController = YouTubeController()
 

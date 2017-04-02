@@ -13,6 +13,10 @@ import HTTP
 
 final class YouTubeController {
     
+    enum Error : Swift.Error {
+        case noVideo
+    }
+    
     private func apiKey() -> String {
         guard let youtubeApiKey = drop.config["app", "youtube", "apiKey"]?.string else {
             fatalError("No YouTube API Key set")
@@ -46,9 +50,19 @@ final class YouTubeController {
     }
     
     func video(_ req: Request, videoId: String) throws -> ResponseRepresentable {
-        guard let urls = try LiveStreamerReader.read(videoId: videoId) else {
-            return try Response(status: .noContent, json: JSON(node: [:]))
+        let cacheKey = "video-\(videoId)"
+        guard let cached = try drop.cache.get(cacheKey) else {
+            let urls = try videoUrls(for: videoId)
+            try drop.cache.set(cacheKey, urls)
+            return try Response(status: .ok, json: JSON(node: urls))
         }
-        return try Response(status: .ok, json: JSON(node: ["urls": Node.array(urls)]))
+        return try Response(status: .ok, json: JSON(node: cached))
+    }
+    
+    private func videoUrls(for videoId: String) throws -> Node {
+        guard let urls = try LiveStreamerReader.read(videoId: videoId) else {
+            throw Error.noVideo
+        }
+        return Node(["urls": Node.array(urls)])
     }
 }
