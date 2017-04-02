@@ -10,6 +10,7 @@ import Foundation
 import Vapor
 import Core
 import HTTP
+import VaporRedis
 
 final class YouTubeController {
     
@@ -53,7 +54,7 @@ final class YouTubeController {
         let cacheKey = "video-\(videoId)"
         guard let cached = try drop.cache.get(cacheKey) else {
             let urls = try videoUrls(for: videoId)
-            try drop.cache.set(cacheKey, urls)
+            try save(node: urls, with: cacheKey)
             return try Response(status: .ok, json: JSON(node: urls))
         }
         return try Response(status: .ok, json: JSON(node: cached))
@@ -64,5 +65,12 @@ final class YouTubeController {
             throw Error.noVideo
         }
         return Node(["urls": Node.array(urls)])
+    }
+    
+    private func save(node: Node, with key: String) throws {
+        try drop.cache.set(key, node)
+        if let redisCache = drop.cache as? RedisCache {
+            try redisCache.redbird.command("EXPIRE", params: [key, "3600"])
+        }
     }
 }
