@@ -18,41 +18,47 @@ final class YouTubeController {
         case noVideo
     }
     
-    private func apiKey() -> String {
+    private let googleApisBaseUrl = "https://www.googleapis.com/youtube/v3"
+    
+    private let apiKey: String = {
         guard let youtubeApiKey = drop.config["app", "youtube", "apiKey"]?.string else {
             fatalError("No YouTube API Key set")
         }
         return youtubeApiKey
-    }
+    }()
     
-    private func channelId() -> String {
+    private let channelId: String = {
         guard let youtubeChannelId = drop.config["app", "youtube", "channelId"]?.string else {
             fatalError("No YouTube Channel Id set")
         }
         return youtubeChannelId
-    }
+    }()
     
-    private func cacheExpiration() -> String {
+    private let cacheExpiration: String = {
         return drop.config["app", "youtube", "cacheExpiration"]?.string ?? "0"
-    }
+    }()
+    
+    // MARK: - Lists
     
     func playlistItems(_ req: Request) throws -> ResponseRepresentable {
         guard let playlistId = req.data["playlistId"]?.string else {
             return Response(status: .badRequest)
         }
-        let query = "https://www.googleapis.com/youtube/v3/playlistItems?key=\(apiKey())&maxResults=50&part=snippet&playlistId=\(playlistId)"
+        let query = "\(googleApisBaseUrl)/playlistItems?key=\(apiKey)&maxResults=50&part=snippet&playlistId=\(playlistId)"
         return try drop.client.get(query)
     }
     
     func search(_ req: Request) throws -> ResponseRepresentable {
-        let query = "https://www.googleapis.com/youtube/v3/search?key=\(apiKey())&part=snippet&channelId=\(channelId())&type=video&maxResults=50"
+        let query = "\(googleApisBaseUrl)/search?key=\(apiKey)&part=snippet&channelId=\(channelId)&type=video&maxResults=50"
         return try drop.client.get(query)
     }
     
     func live(_ req: Request) throws -> ResponseRepresentable {
-        let query = "https://www.googleapis.com/youtube/v3/search?key=\(apiKey())&part=snippet&eventType=live&type=video&channelId=\(channelId())"
+        let query = "\(googleApisBaseUrl)/search?key=\(apiKey)&part=snippet&eventType=live&type=video&channelId=\(channelId)"
         return try drop.client.get(query)
     }
+    
+    // MARK: - Single Video
     
     func video(_ req: Request, videoId: String) throws -> ResponseRepresentable {
         let cacheKey = "video-\(videoId)"
@@ -73,9 +79,8 @@ final class YouTubeController {
     
     private func save(node: Node, with key: String) throws {
         try drop.cache.set(key, node)
-        let expiration = cacheExpiration()
         if let redisCache = drop.cache as? RedisCache {
-            try redisCache.redbird.command("EXPIRE", params: [key, expiration])
+            try redisCache.redbird.command("EXPIRE", params: [key, cacheExpiration])
         }
     }
 }
