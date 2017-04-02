@@ -32,6 +32,10 @@ final class YouTubeController {
         return youtubeChannelId
     }
     
+    private func cacheExpiration() -> String {
+        return drop.config["app", "youtube", "cacheExpiration"]?.string ?? "0"
+    }
+    
     func playlistItems(_ req: Request) throws -> ResponseRepresentable {
         guard let playlistId = req.data["playlistId"]?.string else {
             return Response(status: .badRequest)
@@ -69,8 +73,9 @@ final class YouTubeController {
     
     private func save(node: Node, with key: String) throws {
         try drop.cache.set(key, node)
+        let expiration = cacheExpiration()
         if let redisCache = drop.cache as? RedisCache {
-            try redisCache.redbird.command("EXPIRE", params: [key, "3600"])
+            try redisCache.redbird.command("EXPIRE", params: [key, expiration])
         }
     }
 }
