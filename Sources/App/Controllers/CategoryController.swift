@@ -12,7 +12,7 @@ import Core
 import HTTP
 
 final class CategoryController {
-    let dataLoader = DataFile()
+    private let dataLoader = DataFile()
 
     func categories(_ req: Request) throws -> ResponseRepresentable {
         let fileBody = try dataLoader.load(path: drop.workDir + "Data/categories.json")

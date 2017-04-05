@@ -1,7 +1,5 @@
-import Vapor
 import Foundation
-import Core
-import HTTP
+import Vapor
 import VaporRedis
 
 let drop = Droplet()

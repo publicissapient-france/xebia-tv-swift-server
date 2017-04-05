@@ -5,10 +5,7 @@ class LiveStreamerReader {
     static func read(videoId: String, commandInteractor: CommandInteractor.Type = UnixCommandInteractor.self) throws -> [Node]? {
         let liveStreamerResult = commandInteractor.launch("/usr/local/bin/livestreamer", args: ["https://www.youtube.com/watch?v=" + videoId, "--json", "--stream-url", "--yes-run-as-root"])
        
-        guard let data = liveStreamerResult else {
-            return nil
-        }
-        
+        let data = liveStreamerResult
         guard let jsonObject = try JSONSerialization.jsonObject(with: data, options: []) as? [AnyHashable : Any],
             let streams = jsonObject["streams"] as? [AnyHashable : Any]
         else {
