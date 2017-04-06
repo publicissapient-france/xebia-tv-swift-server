@@ -11,7 +11,14 @@ import Vapor
 import Core
 import HTTP
 
-final class YouTubeController {
+public protocol YouTubeController {
+    func playlistItems(_ req: Request) throws -> ResponseRepresentable
+    func search(_ req: Request) throws -> ResponseRepresentable
+    func live(_ req: Request) throws -> ResponseRepresentable
+    func video(_ req: Request, videoId: String) throws -> ResponseRepresentable
+}
+
+public final class BaseYouTubeController : YouTubeController {
     
     enum Error : Swift.Error {
         case noVideo
@@ -24,7 +31,7 @@ final class YouTubeController {
     private let channelId: String
     private let cacheExpiration: String
     
-    init(drop: Droplet, cacheService: CacheService) {
+    public init(drop: Droplet, cacheService: CacheService) {
         self.drop = drop
         self.cacheService = cacheService
         
@@ -39,7 +46,7 @@ final class YouTubeController {
     
     // MARK: - Lists
     
-    func playlistItems(_ req: Request) throws -> ResponseRepresentable {
+    public func playlistItems(_ req: Request) throws -> ResponseRepresentable {
         guard let playlistId = req.data["playlistId"]?.string else {
             return Response(status: .badRequest)
         }
@@ -47,19 +54,19 @@ final class YouTubeController {
         return try drop.client.get(query)
     }
     
-    func search(_ req: Request) throws -> ResponseRepresentable {
+    public func search(_ req: Request) throws -> ResponseRepresentable {
         let query = "\(googleApisBaseUrl)/search?key=\(apiKey)&part=snippet&channelId=\(channelId)&type=video&maxResults=50"
         return try drop.client.get(query)
     }
     
-    func live(_ req: Request) throws -> ResponseRepresentable {
+    public func live(_ req: Request) throws -> ResponseRepresentable {
         let query = "\(googleApisBaseUrl)/search?key=\(apiKey)&part=snippet&eventType=live&type=video&channelId=\(channelId)"
         return try drop.client.get(query)
     }
     
     // MARK: - Single Video
     
-    func video(_ req: Request, videoId: String) throws -> ResponseRepresentable {
+    public func video(_ req: Request, videoId: String) throws -> ResponseRepresentable {
         let cacheKey = "video-\(videoId)"
         guard let cached = try cacheService.load(for: cacheKey) else {
             let urls = try videoUrls(for: videoId)

@@ -11,15 +11,19 @@ import Vapor
 import Core
 import HTTP
 
-final class CategoryController {
+public protocol CategoryController {
+    func categories(_ req: Request) throws -> ResponseRepresentable
+}
+
+public final class BaseCategoryController : CategoryController {
     private let dataLoader = DataFile()
     private let drop: Droplet
 
-    init(drop: Droplet) {
+    public init(drop: Droplet) {
     	self.drop = drop
     }
 
-    func categories(_ req: Request) throws -> ResponseRepresentable {
+    public func categories(_ req: Request) throws -> ResponseRepresentable {
         let fileBody = try dataLoader.load(path: drop.workDir + "Data/categories.json")
         return Response(body: .data(fileBody))
     }
