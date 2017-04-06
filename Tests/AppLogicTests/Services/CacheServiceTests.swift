@@ -1,7 +1,7 @@
 import XCTest
 @testable import Vapor
 import HTTP
-@testable import AppLogic
+import AppLogic
 
 class CacheServiceTests: XCTestCase {
     
