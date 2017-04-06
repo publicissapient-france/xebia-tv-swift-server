@@ -71,9 +71,9 @@ public final class BaseYouTubeController : YouTubeController {
         guard let cached = try cacheService.load(for: cacheKey) else {
             let urls = try videoUrls(for: videoId)
             try cacheService.save(node: urls, with: cacheKey, expiration: cacheExpiration)
-            return try Response(status: .ok, json: JSON(node: urls))
+            return try JSON(node: urls)
         }
-        return try Response(status: .ok, json: JSON(node: cached))
+        return try JSON(node: cached)
     }
     
     private func videoUrls(for videoId: String) throws -> Node {
