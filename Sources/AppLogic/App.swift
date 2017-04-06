@@ -21,16 +21,16 @@ public struct Loader {
     }
     
     public func load() throws {
-        try setupRoutes(drop, categoryController: categoryController, youTubeController: youTubeController)
+        try setupRoutes(drop, loader: self)
     }
 }
 
-func setupRoutes(_ drop: Droplet, categoryController: CategoryController, youTubeController: YouTubeController) throws {
-    drop.get("/categories", handler: categoryController.categories)
-    drop.get("/playlistItems", handler: youTubeController.playlistItems)
-    drop.get("/search", handler: youTubeController.search)
-    drop.get("/live", handler: youTubeController.live)
-    drop.get("/video", String.self, handler: youTubeController.video)
+func setupRoutes(_ drop: Droplet, loader: Loader) throws {
+    drop.get("/categories", handler: loader.categoryController.categories)
+    drop.get("/playlistItems", handler: loader.youTubeController.playlistItems)
+    drop.get("/search", handler: loader.youTubeController.search)
+    drop.get("/live", handler: loader.youTubeController.live)
+    drop.get("/video", String.self, handler: loader.youTubeController.video)
     
     drop.get { req in
         return try drop.view.make("welcome", [
