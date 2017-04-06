@@ -22,7 +22,7 @@ final class YouTubeController {
     private let googleApisBaseUrl = "https://www.googleapis.com/youtube/v3"
     private let apiKey: String
     private let channelId: String
-    
+    private let cacheExpiration: String
     
     init(drop: Droplet, cacheService: CacheService) {
         self.drop = drop
@@ -33,6 +33,8 @@ final class YouTubeController {
         
         guard let channelId = drop.config["app", "youtube", "channelId"]?.string else { fatalError("No YouTube Channel Id set") }
         self.channelId = channelId
+        
+        self.cacheExpiration = drop.config["app", "youtube", "cacheExpiration"]?.string ?? "0"
     }
     
     // MARK: - Lists
@@ -59,9 +61,9 @@ final class YouTubeController {
     
     func video(_ req: Request, videoId: String) throws -> ResponseRepresentable {
         let cacheKey = "video-\(videoId)"
-        guard let cached = try drop.cache.get(cacheKey) else {
+        guard let cached = try cacheService.load(for: cacheKey) else {
             let urls = try videoUrls(for: videoId)
-            try cacheService.save(node: urls, with: cacheKey)
+            try cacheService.save(node: urls, with: cacheKey, expiration: cacheExpiration)
             return try Response(status: .ok, json: JSON(node: urls))
         }
         return try Response(status: .ok, json: JSON(node: cached))
