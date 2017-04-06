@@ -4,7 +4,7 @@ import VaporRedis
 
 public protocol CacheService {
     func load(for key: String) throws -> Node?
-    func save(node: Node, with key: String, expiration: String) throws
+    func save(node: Node, with key: String, expiration: TimeInterval) throws
 }
 
 public class RedisService : CacheService {
@@ -19,10 +19,10 @@ public class RedisService : CacheService {
         self.drop = drop
     }
     
-    public func save(node: Node, with key: String, expiration: String) throws {
+    public func save(node: Node, with key: String, expiration: TimeInterval) throws {
         try drop.cache.set(key, node)
         if let redisCache = drop.cache as? RedisCache {
-            try redisCache.redbird.command("EXPIRE", params: [key, expiration])
+            try redisCache.redbird.command("EXPIRE", params: [key, "\(Int(expiration))"])
         }
     }
     
@@ -30,11 +30,11 @@ public class RedisService : CacheService {
         return try drop.cache.get(key)
     }
     
-    public func ttl(for key: String) throws -> Int {
+    public func ttl(for key: String) throws -> TimeInterval {
         guard let redisCache = drop.cache as? RedisCache else {
             throw Error.unsupportedCache
         }
         let response = try redisCache.redbird.command("TTL", params: [key])
-        return try response.toInt()
+        return try TimeInterval(response.toInt())
     }
 }

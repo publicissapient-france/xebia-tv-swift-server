@@ -29,7 +29,7 @@ public final class BaseYouTubeController : YouTubeController {
     private let googleApisBaseUrl = "https://www.googleapis.com/youtube/v3"
     private let apiKey: String
     private let channelId: String
-    private let cacheExpiration: String
+    private let cacheExpiration: TimeInterval
     
     public init(drop: Droplet, cacheService: CacheService) {
         self.drop = drop
@@ -41,7 +41,7 @@ public final class BaseYouTubeController : YouTubeController {
         guard let channelId = drop.config["app", "youtube", "channelId"]?.string else { fatalError("No YouTube Channel Id set") }
         self.channelId = channelId
         
-        self.cacheExpiration = drop.config["app", "youtube", "cacheExpiration"]?.string ?? "0"
+        self.cacheExpiration = drop.config["app", "youtube", "cacheExpiration"]?.double ?? 0
     }
     
     // MARK: - Lists

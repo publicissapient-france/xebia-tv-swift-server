@@ -2,6 +2,6 @@
 	"key": "$VAPOR_APP_KEY",
 	"youtube": {
 		"channelId": "UCDSbqKhAoWZARlWAPbf88rg",
-        "cacheExpiration": "3600"
+        "cacheExpiration": 3600
 	}
 }
