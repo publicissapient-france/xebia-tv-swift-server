@@ -13,6 +13,11 @@ import HTTP
 
 final class CategoryController {
     private let dataLoader = DataFile()
+    private let drop: Droplet
+
+    init(drop: Droplet) {
+    	self.drop = drop
+    }
 
     func categories(_ req: Request) throws -> ResponseRepresentable {
         let fileBody = try dataLoader.load(path: drop.workDir + "Data/categories.json")

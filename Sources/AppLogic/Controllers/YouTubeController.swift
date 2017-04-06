@@ -17,26 +17,32 @@ final class YouTubeController {
     enum Error : Swift.Error {
         case noVideo
     }
+
+    private let drop: Droplet
+
+    init(drop: Droplet) {
+        self.drop = drop
+    }
     
     private let googleApisBaseUrl = "https://www.googleapis.com/youtube/v3"
     
-    private let apiKey: String = {
+    private var apiKey: String {
         guard let youtubeApiKey = drop.config["app", "youtube", "apiKey"]?.string else {
             fatalError("No YouTube API Key set")
         }
         return youtubeApiKey
-    }()
+    }
     
-    private let channelId: String = {
+    private var channelId: String {
         guard let youtubeChannelId = drop.config["app", "youtube", "channelId"]?.string else {
             fatalError("No YouTube Channel Id set")
         }
         return youtubeChannelId
-    }()
+    }
     
-    private let cacheExpiration: String = {
+    private var cacheExpiration: String {
         return drop.config["app", "youtube", "cacheExpiration"]?.string ?? "0"
-    }()
+    }
     
     // MARK: - Lists
     

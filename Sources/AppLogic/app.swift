@@ -2,10 +2,10 @@ import Foundation
 import Vapor
 import VaporRedis
 
-func load(_ drop: Droplet) throws {
+public func load(_ drop: Droplet) throws {
     try drop.addProvider(VaporRedis.Provider(config: drop.config))
-    let categoryController = CategoryController()
-    let youtubeController = YouTubeController()
+    let categoryController = CategoryController(drop: drop)
+    let youtubeController = YouTubeController(drop: drop)
     
     drop.get("/categories", handler: categoryController.categories)
     drop.get("/playlistItems", handler: youtubeController.playlistItems)
