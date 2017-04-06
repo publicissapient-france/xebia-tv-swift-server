@@ -2,16 +2,30 @@ import Foundation
 import Vapor
 import VaporRedis
 
-public func load(_ drop: Droplet) throws {
-    try drop.addProvider(VaporRedis.Provider(config: drop.config))
-    let cacheService = RedisService(drop: drop)
-
-    let categoryController = BaseCategoryController(drop: drop)
-    let youTubeController = BaseYouTubeController(drop: drop, cacheService: cacheService)
-    return try load(drop, categoryController: categoryController, youTubeController: youTubeController)
+public struct Loader {
+    public let drop: Droplet
+    public let categoryController: CategoryController
+    public let youTubeController: YouTubeController
+    
+    public init(drop: Droplet, categoryController: CategoryController? = nil, youTubeController: YouTubeController? = nil) throws {
+        self.drop = drop
+        self.categoryController = categoryController ?? BaseCategoryController(drop: drop)
+        
+        if let youTubeController = youTubeController {
+            self.youTubeController = youTubeController
+        }
+        else {
+            let cacheService = try RedisService(drop: drop)
+            self.youTubeController = youTubeController ?? BaseYouTubeController(drop: drop, cacheService: cacheService)
+        }
+    }
+    
+    public func load() throws {
+        try setupRoutes(drop, categoryController: categoryController, youTubeController: youTubeController)
+    }
 }
 
-public func load(_ drop: Droplet, categoryController: CategoryController, youTubeController: YouTubeController) throws {
+func setupRoutes(_ drop: Droplet, categoryController: CategoryController, youTubeController: YouTubeController) throws {
     drop.get("/categories", handler: categoryController.categories)
     drop.get("/playlistItems", handler: youTubeController.playlistItems)
     drop.get("/search", handler: youTubeController.search)

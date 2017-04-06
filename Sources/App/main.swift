@@ -2,5 +2,6 @@ import AppLogic
 import Vapor
 
 let drop = Droplet()
-try load(drop)
+let loader = try Loader(drop: drop)
+try loader.load()
 drop.run()

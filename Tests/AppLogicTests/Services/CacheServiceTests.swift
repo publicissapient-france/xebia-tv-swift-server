@@ -9,7 +9,7 @@ class CacheServiceTests: XCTestCase {
         let drop = try makeTestDroplet()
         let key = "A"
         
-        let redisService = RedisService(drop: drop)
+        let redisService = try RedisService(drop: drop)
         let node = Node(stringLiteral: "a-value")
         try redisService.save(node: node, with: key, expiration: "30")
         

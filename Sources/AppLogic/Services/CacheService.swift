@@ -14,7 +14,8 @@ public class RedisService : CacheService {
         case unsupportedCache
     }
     
-    public init(drop: Droplet) {
+    public init(drop: Droplet) throws {
+        try drop.addProvider(VaporRedis.Provider(config: drop.config))
         self.drop = drop
     }
     
