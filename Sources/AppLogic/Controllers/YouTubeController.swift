@@ -10,7 +10,6 @@ import Foundation
 import Vapor
 import Core
 import HTTP
-import VaporRedis
 
 final class YouTubeController {
     
@@ -19,29 +18,21 @@ final class YouTubeController {
     }
 
     private let drop: Droplet
-
-    init(drop: Droplet) {
-        self.drop = drop
-    }
-    
+    private let cacheService: CacheService
     private let googleApisBaseUrl = "https://www.googleapis.com/youtube/v3"
+    private let apiKey: String
+    private let channelId: String
     
-    private var apiKey: String {
-        guard let youtubeApiKey = drop.config["app", "youtube", "apiKey"]?.string else {
-            fatalError("No YouTube API Key set")
-        }
-        return youtubeApiKey
-    }
     
-    private var channelId: String {
-        guard let youtubeChannelId = drop.config["app", "youtube", "channelId"]?.string else {
-            fatalError("No YouTube Channel Id set")
-        }
-        return youtubeChannelId
-    }
-    
-    private var cacheExpiration: String {
-        return drop.config["app", "youtube", "cacheExpiration"]?.string ?? "0"
+    init(drop: Droplet, cacheService: CacheService) {
+        self.drop = drop
+        self.cacheService = cacheService
+        
+        guard let apiKey = drop.config["app", "youtube", "apiKey"]?.string else { fatalError("No YouTube API Key set") }
+        self.apiKey = apiKey
+        
+        guard let channelId = drop.config["app", "youtube", "channelId"]?.string else { fatalError("No YouTube Channel Id set") }
+        self.channelId = channelId
     }
     
     // MARK: - Lists
@@ -70,7 +61,7 @@ final class YouTubeController {
         let cacheKey = "video-\(videoId)"
         guard let cached = try drop.cache.get(cacheKey) else {
             let urls = try videoUrls(for: videoId)
-            try save(node: urls, with: cacheKey)
+            try cacheService.save(node: urls, with: cacheKey)
             return try Response(status: .ok, json: JSON(node: urls))
         }
         return try Response(status: .ok, json: JSON(node: cached))
@@ -81,12 +72,5 @@ final class YouTubeController {
             throw Error.noVideo
         }
         return Node(["urls": Node.array(urls)])
-    }
-    
-    private func save(node: Node, with key: String) throws {
-        try drop.cache.set(key, node)
-        if let redisCache = drop.cache as? RedisCache {
-            try redisCache.redbird.command("EXPIRE", params: [key, cacheExpiration])
-        }
     }
 }
